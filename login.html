@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monst Company | Login</title>
+    <link rel="shortcut icon" href="assets/images/Logo-favicon.png" type="image/x-icon">
+    <!-- Bootstarp 5 Library -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <!-- Hover Library Selected Classes -->
+    <link rel="stylesheet" href="dist/css/myHover.min.css">
+    <!-- Wow js Library -->
+    <link rel="stylesheet" href="dist/css/animate.css">
+    <!-- Main Css File -->
+    <link class="themes" rel="stylesheet" href="dist/css/login.min.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 Icon Library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Swipper Library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!---- #Navbar Section  ---->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-fluid" src="assets/images/monst-logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item mx-xl-4 mx-md-3">
+                        <a class="nav-link hvr-wobble-horizontal" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-xl-4 mx-md-3">
+                        <a class="nav-link hvr-wobble-horizontal" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item mx-xl-4 mx-md-3">
+                        <a class="nav-link hvr-wobble-horizontal" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item mx-xl-4 mx-md-3">
+                        <a class="nav-link hvr-wobble-horizontal" href="company.html">Company</a>
+                    </li>
+                    <li class="nav-item mx-xl-4 mx-md-3">
+                        <a class="nav-link hvr-wobble-horizontal" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item mx-xl-4 mx-md-3">
+                        <a class="nav-link hvr-wobble-horizontal" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class=" buttons d-flex gap-3 ms-auto">
+                    <a href="login.html" class="btn my-btn" type="submit">login</a>
+                    <a href="sign.html" class="btn my-btn-outline" type="submit">Sign Up</a>
+                </div>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header d-flex justify-content-end">
+                    <button type="button" class="btn-close text-reset align-end" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item mx-xl-4 mx-md-3">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-xl-4 mx-md-3">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item mx-xl-4 mx-md-3">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item mx-xl-4 mx-md-3">
+                            <a class="nav-link" href="company.html">Company</a>
+                        </li>
+                        <li class="nav-item mx-xl-4 mx-md-3">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item mx-xl-4 mx-md-3">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class=" buttons d-flex gap-3 ms-auto">
+                        <a href="login.html" class="btn my-btn" type="submit">login</a>
+                        <a href="sign.html" class="btn my-btn-outline" type="submit">Sign Up</a>
+                    </div>
+                    <hr>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn my-btn-outline" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wow fadeInDown main-head row justify-content-center align-items-center">
+        <div class="col col-10">
+            <span class="fw-bold badge">Sign in</span>
+            <h3 class="special-heading mt-3 mb-2">
+                Join our <span>communty</span>
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Sed luctuseget justo et iaculis. </p>
+        </div>
+    </div>
+    <!---- #Login Section  ---->
+    <section class="login">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col col-10 col-md-6 mb-5">
+                    <form action="#">
+                        <div class="mb-4">
+                            <label for="formGroupExampleInput" class="form-label fw-bold">Email</label>
+                            <input type="email" class="form-control" id="formGroupExampleInput" placeholder="Enter Your Email">
+                        </div>
+                        <div class="mb-4 wow">
+                            <label for="formGroupExampleInput2" class="form-label fw-bold">Password</label>
+                            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Enter Your Password">
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                        <button class="btn my-btn w-50 my-4 d-block mx-auto">Login</button>
+                        <a class="text-center d-block fs-6 my-auto">Forget Password</a>
+                    </form>
+                </div>
+                <div class="wow bounceIn col col-10 col-md-6 mb-5">
+                    <img class="img-fluid hvr-wobble-horizontal" src="assets/images/space-login-page.webp" alt="">
+                </div>
+        </div>
+    </section>
+
+    <!---- #Footer  ---->
+    <footer class="footer">
+        <div class="container">
+            <div class="row px-3 py-5 mb-3 gap-5 gap-lg-0">
+                <div class="col col-12 col-md-5 col-lg-3 d-flex flex-column gap-2" >
+                    <img  src="assets/images/monst-logo.svg" alt="">
+                    <p>Helping you <span>maximize</span> operations
+                        management with digitization 
+                    </p>
+                    <div class="social-links d-flex gap-2 gap-md-4 ">
+                        <a class="hvr-float-shadow" href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a class="hvr-float-shadow" href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a class="hvr-float-shadow" href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a class="hvr-float-shadow" href="#">
+                            <ion-icon name="logo-skype"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                <div class="col col-12 col-md-5 col-lg-3 d-flex flex-column gap-2 pt-2">
+                    <h3>Quick Links</h3>
+                    <ul class="d-flex flex-column gap-3">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="company.html">Company</a></li>
+                    </ul>
+                </div>
+                <div class="col col-12 col-md-5 col-lg-3 d-flex flex-column gap-2 pt-2">
+                    <h3>Other Links</h3>
+                    <ul class="d-flex flex-column gap-3">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col col-12 col-md-5 col-lg-3 d-flex flex-column gap-2 pt-2">
+                    <h3>NewsLetter</h3>
+                    <p>Subscribe for latest updates</p>
+                    <div class="d-flex flex-column gap-3 justify-content-center">
+                        <input type="text" class="form-control px-2 py-3" placeholder="Enter Your email" aria-label="Username" aria-describedby="basic-addon1">
+                        <a href="#" class="btn my-btn py-2 px-4">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center" data-wow-delay="1s">
+                <p class="copy-right text-center">© <span class="year"></span>. All rights reserved. Developed by <span>Omar Helal</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!--- Ion Icon Library--->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/wow.min.js"></script>
+    <script src="dist/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="dist/js/owl.carousel.min.js"></script>
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
